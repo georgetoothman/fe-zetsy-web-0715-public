@@ -39,14 +39,18 @@ body {
 
 #press img {
   border: 5px #ccc solid;
-  margin: 5px;
+  margin: 1px;
   padding: 1px;
+}
+
+#press {
   margin-bottom: 20px;
 }
 
 img {
+  position: relative;
   height: 143px;
-  width: 224px;
+  width: 222px;
 }
 
 h2 {
@@ -69,4 +73,49 @@ p {
   margin: 0 0 20px 0;
 }
 
-/* Write all remaining styles here 
+
+/* Write all remaining styles here */
+
+img {
+  border: 0;
+}
+
+a {
+  background: transparent;
+}
+
+/*a:hover {
+  border-bottom-color: rgb(134,158,149);
+  border-right-color: rgb(134,158,149);
+  border-left-color: rgb(134,158,149);
+  border-top-color: rgb(134,158,149);
+  cursor: pointer;
+}*/
+
+/*a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}*/
+
+#featured a {
+  color: #1783bb;
+  text-decoration: none;
+}
+
+section#press {
+  width: 960px;
+  height: 222.547px;
+}
+
+/** {
+  -box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}*/
+
+/*.box {
+  position: relative;
+  top: 25px;
+  left: ;
+}*/
